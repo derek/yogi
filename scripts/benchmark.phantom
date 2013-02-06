@@ -2,8 +2,7 @@
 
 var page = require('webpage').create(),
     system = require('system'),
-    fs = require('fs'),
-    t, path;
+    t;
 
 if (system.args.length === 1) {
     console.log('No input path specified');
