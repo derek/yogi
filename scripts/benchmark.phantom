@@ -27,7 +27,6 @@ page.open(path, function (status) {
 });
 
 page.onConsoleMessage = function(msg) {
-    fs.write('output.json', msg);
     console.log(msg);
     phantom.exit();
 };
