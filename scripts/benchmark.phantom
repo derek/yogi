@@ -1,0 +1,33 @@
+#!/usr/bin/env phantomjs
+
+var page = require('webpage').create(),
+    system = require('system'),
+    fs = require('fs'),
+    t, path;
+
+if (system.args.length === 1) {
+    console.log('No input path specified');
+    console.log('Usage: elmo <some path>');
+    phantom.exit();
+}
+
+// t = Date.now();
+path = system.args[1];
+
+page.open(path, function (status) {
+    if (status !== 'success') {
+        console.log('FAIL to load the address');
+    }
+    else {
+        // t = Date.now() - t;
+        // console.log('Path: ' + path);
+        // console.log('Page load time: ' + t + 'ms');
+        // console.log('---');
+    }
+});
+
+page.onConsoleMessage = function(msg) {
+    fs.write('output.json', msg);
+    console.log(msg);
+    phantom.exit();
+};
