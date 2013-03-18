@@ -37,8 +37,7 @@
         "which": "*",
         "ansispan": "~0.0.4",
         "complete": "0.3.1",
-        "promises-aplus-tests": "*",
-        "cli-table": "*"
+        "promises-aplus-tests": "*"
     },
     "scripts": {
         "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/*.js ./lib/*/*.js",
