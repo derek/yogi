@@ -38,7 +38,8 @@
         "ansispan": "~0.0.4",
         "complete": "0.3.1",
         "promises-aplus-tests": "*",
-        "yui-benchmark": "http://derek.io/~/yui-benchmark-latest.php"
+        "yui-benchmark": "http://derek.io/~/yui-benchmark-latest.php",
+        "async": "*"
     },
     "scripts": {
         "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/*.js ./lib/*/*.js",
