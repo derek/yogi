@@ -1,7 +1,7 @@
 {
     "name": "yogi",
     "description": "YUI Or Gallery Interface (CLI to YUI and Gallery development)",
-    "version": "0.0.75",
+    "version": "0.1.0",
     "author": "Dav Glass <davglass@gmail.com>",
     "bin": {
         "yogi": "./bin/yogi.js"
@@ -22,7 +22,7 @@
         "nopt": "1",
         "mkdirp": "~0.3.3",
         "osenv": "*",
-        "shifter": ">=0.2.0",
+        "shifter": ">=0.3.0",
         "portfinder": "*",
         "echoecho": "~0.1.4",
         "istanbul": "~0.1.10",
