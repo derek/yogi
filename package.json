@@ -39,7 +39,8 @@
         "yui-benchmark": "http://derek.io/~/yui-benchmark-latest.php",
         "async": "*",
         "complete": ">=0.4.3",
-        "promises-aplus-tests": "*"
+        "promises-aplus-tests": "*",
+        "glob" : "*"
     },
     "scripts": {
         "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/*.js ./lib/*/*.js",
