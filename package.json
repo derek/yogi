@@ -28,7 +28,7 @@
         "istanbul": "~0.1.10",
         "findit": "~0.1.2",
         "treeify": "~0.2.0",
-        "yeti": "https://github.com/derek/yeti/tarball/benchmark",
+        "yeti": "~0.2.23",
         "editor": "~0.0.4",
         "wiky.js": "*",
         "timethat": "*",
@@ -38,8 +38,8 @@
         "ansispan": "~0.0.4",
         "yui-benchmark": "http://derek.io/~/yui-benchmark-latest.php",
         "async": "*",
-        "complete": ">=0.4.3",
-        "promises-aplus-tests": "*",
+        "complete": "~0.4.3",
+        "promises-aplus-tests": "~1.3.1",
         "glob" : "*"
     },
     "scripts": {
